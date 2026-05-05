@@ -1,46 +1,41 @@
-# 🔐 Clerk vs Better Auth: The Ultimate Comparison
+# Clerk Auth — Next.js Authentication
 
-This project is a high-performance, aesthetically pleasing comparison dashboard built to help developers understand the trade-offs between **Clerk** and **Better Auth**.
+A simple authentication project built with Next.js and Clerk, featuring Sign In and Sign Up pages with protected routes.
 
-## 🚀 Quick Start
+## Tech Stack
 
-1. **Install dependencies:**
-   ```bash
+- Next.js
+- Clerk Authentication
+- Tailwind CSS
+
+## Features
+
+- Sign In & Sign Up with Clerk
+- Protected Routes
+- Clean responsive UI
+
+## Getting Started
+
+1. Clone the repo
+   git clone https://github.com/Shreynaik1/your-repo-name
+
+2. Install dependencies
    npm install
-   ```
 
-2. **Set up Environment Variables:**
-   Create a `.env.local` file with your Clerk keys:
-   ```env
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
-   CLERK_SECRET_KEY=your_secret_key
-   ```
+3. Create a .env.local file and add your Clerk keys
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key_here
+   CLERK_SECRET_KEY=your_secret_here
 
-3. **Run the development server:**
-   ```bash
+4. Run the development server
    npm run dev
-   ```
 
-## 🧠 What's Inside?
+## Environment Variables
 
-- **Interactive Hero Section:** Smooth animations using `framer-motion`.
-- **Clerk Integration:** Live demo of Clerk's managed authentication.
-- **Deep Comparison Table:** Feature-by-feature breakdown (Self-hosting vs Managed).
-- **Modern UI:** Built with Tailwind CSS and Lucide icons for a premium look.
+Create a .env.local file in the root directory and add the keys above.
+Get your keys from https://clerk.com
 
-## 📊 Key Takeaways
+## Author
 
-| Feature | Clerk | Better Auth |
-| :--- | :--- | :--- |
-| **Setup Time** | < 5 mins | ~15 mins |
-| **Data Ownership** | Vendor-hosted | Self-hosted (Your DB) |
-| **UI Components** | Pre-built (Best-in-class) | Custom-built |
-| **Cost** | Tiered/Usage-based | Open Source / Free |
-
-## 🤝 Contributing
-
-Feel free to fork this repository and add your own insights or auth providers!
-
----
-
-Built for the **Next.js** community. Happy coding!
+Shrey Naik
+GitHub: https://github.com/Shreynaik1
+LinkedIn: https://www.linkedin.com/in/shreynaik1/
